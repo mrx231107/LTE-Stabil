@@ -9,11 +9,15 @@ echo "•Author : AGHX•" | lolcat
 echo "•Github : https://github.com/mrx231107•" | lolcat
 echo "------------------------------------------" | lolcat
 sleep 2
-echo "1. Stabilkan Jaringan"                                                            echo "2. Exit"
+echo "1. Stabilkan Jaringan"                                                            
+echo "2. Exit"
 read -p "Silahkan Pilih :" pilih
-                                                                                        if [ $pilih = 1 ]                                                                       then
+                                                                                        
+if [ $pilih = 1 ]                                                                       
+then
 clear
-pkg install python2                                                                     pkg install git
+pkg install python2                                                                     
+pkg install git
 pkg update && upgrade
 clear
 echo "Loading.." | lolcat -a
